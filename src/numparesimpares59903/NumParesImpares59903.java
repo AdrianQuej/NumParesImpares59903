@@ -28,7 +28,7 @@ public class NumParesImpares59903 {
             esPar= numero%2;
             
             if(esPar == 0){
-            paresTotales += paresTotales + numero;
+            paresTotales = paresTotales + numero;
             }
              else{
                 imparesTotales = imparesTotales + numero;
